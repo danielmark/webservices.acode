@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="setLogACODE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="credencial" type="xs:string" minOccurs="1" maxOccurs="1">
+                </xs:element>
+                <xs:element name="dadosLogACODE" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="loja" type="xs:int" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="data" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
