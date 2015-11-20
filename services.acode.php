@@ -1,9 +1,10 @@
-<?php
+﻿<?php
 /*
  * @Info:Services SysFar ACODE
  * @Author:Daniel Braga
  * @Date:01/10/2015
  */
+
 require_once('class/nusoap.php');
 require_once('class/class.util.acode.php');
 
